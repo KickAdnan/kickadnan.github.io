@@ -1,0 +1,73 @@
+/* basic styles for black background and crosshair cursor */
+
+canvas {
+	cursor: crosshair;
+	display: block;
+	
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  margin: 0;
+  padding: 0;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+
+}
+
+
+
+
+.var-highlight{
+    color: #C0AD60;
+}
+.string-highlight{
+    color: rgba(253, 149, 90, 0.8);
+}
+
+
+.container {
+  position: fixed;
+  left: 35%;
+  margin: 0 auto;
+  top: 30%;
+
+}
+
+
+#typewriter{
+		position: relative;
+		top: 30%;
+        font-size: 1.5em;
+        margin: 0;
+        font-family: "Courier New";
+
+        &:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+}
+
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
