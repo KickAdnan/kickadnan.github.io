@@ -1,93 +1,46 @@
-<!-- 
-	* Personal Cards 1.0 by Luca Cassani *
-	
-	You can copy, modify, publish, use, sell, 
-	or distribute this template for any purpose,
-	commercial or non-commercial, and by any means. 
-	It requires no special copyright notes nor attribution.
--->
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Adnan F. Muhammad</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="Your meta-description here">
-	<meta name="author" content="Luca Cassani">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#2196F3">
-</head>
-<body>
-<div id="blue_bg"></div>
-<header>
-	<div id="quick_card" class="card">
-		<div><img id="photo" src="img/photo.jpg" /></div> <!-- replace photo in /img/ 705x705 -->
-		<h1 id="name">Adnan F. Muhammad</h1>
-		<h2 id="description">"Graphic Designer & Illustrator"</h2>
-	</div>
-</header>
-<main>
-<div id="about_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-info-circle"></i>About Me</div>
-		<div class="content">
-			<section class="element"> 
-						<div class="name">A really clever person with lots of skills and knowledge will ho far in life. when anyone asks for help it's hard to say no.</div>
-			</section>
-			<hr align="left"/>
-			<!-- You can add more experiences! -->
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
-		<div class="content">
-			<section class="element">
-				<div class="name">SMK Muhammadiyah Kedawung</div>
-				<div class="info">Electrical Engineering</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">STMIK IKMI Cirebon</div>
-				<div class="info">Multimedia</div>
-			</section>
-			<!-- You can add more education details! -->
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-suitcase"></i>My Work</div>
-		<div class="content">
-			<section class="element"> 
-					<div class="name">About Cirebon</div>
-					<div class="info">2018, as an Graphic Designer & Content Creator</div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">KSP Sejahtera Bersama</div>
-				<div class="info">2019 - 2020, as an Credit Marketing</div>
-			</section>
-			<!-- You can add more work details ! -->
-		</div>
-	</section>
-</div>
-<div id="contact_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
-		<div class="content">
-			<div class="contacts"><a href="mailto:kickadnan@gmail.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
-			<div class="contacts"><a href="http://twitter.com/kickadnan" target="_blank"><i class="fa fa-twitter"></i>&nbsp; Twitter</a></div>
-			<div class="contacts"><a href="http://instagram.com/kickadnan" target="_blank"><i class="fa fa-instagram"></i>&nbsp; Instagram</a></div>
-			<!-- You can add more contacts! -->
-		</div>
-	</section>
-</div>
-<a href="mailto:kickadnan@gmail.com">
-	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
-</a>
-</main>
-<footer>
-  <small>Made with ❤️ in GitHub</small>
-</footer>
-</body>
-</html>
+    <html lang="en">
+    <head>
+      <title>Adnan F. Muhammad</title>
+                                      <!-- SOURCES -->
+      <link rel="canonical" href="https://kickadnan.github.io"/>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/c61f56ea99.js"></script>
+      <script>
+      document.onkeydown = function(e) {
+          if (e.ctrlKey &&
+              (e.keyCode === 67 ||
+               e.keyCode === 86 ||
+               e.keyCode === 85 ||
+               e.keyCode === 117)) {
+              alert('Check my Github for the source code :)');
+              return false;
+          } else {
+              return true;
+          }
+    };</script>
+    <script>
+    document.addEventListener("contextmenu", function(e){
+        e.preventDefault();
+    }, false);
+    </script>
+    </head>
+
+    <!-- MAIN PAGE -->
+    <body>
+      <main>
+        <div id="nama" class="desc">Adnan F. Muhammad</div>
+        <div class="desc">A Graphic Designer & Illustrator</div>
+        <hr>
+        <div class="social">
+          <a href="https://twitter.com/kickadnan" aria-label="Twitter" rel="noreferrer" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/kickadnan"  aria-label="Instagram" rel="noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://t.me/kickadnan"  aria-label="Telegram" rel="noreferrer" target="_blank"><i class="fab fa-telegram"></i></a>
+          <a href="https://github.com/kickadnan"  aria-label="Github" rel="noreferrer" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="http://steamcommunity.com/id/kickadnan"  aria-label="Steam" rel="noreferrer" target="_blank"><i class="fab fa-steam"></i></a>
+          <a href="spotify:user:huqh5c72fg64rvhf6hbgld3fy"  aria-label="Spotify" rel="noreferrer" target="_blank"><i class="fab fa-spotify"></i></a>
+        </div>
+      </main>
+    </body>
+    </html>
