@@ -103,7 +103,7 @@ main [class~=social] a {
     font-size: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     main [class~=desc] {
         font-size: 40px;
     }
@@ -134,7 +134,7 @@ main [class~=social] a {
     background: #363636;  
     background: -webkit-linear-gradient(to left, #363636, #616161);  
     width: 100%;
-    height:100vh;
+
     
    
 }
