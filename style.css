@@ -111,7 +111,6 @@ main [class~=social] a {
     main {
         min-height: 80vh;
     }
-
     main [class~=social] a {
         font-size: .3125in;
     }
