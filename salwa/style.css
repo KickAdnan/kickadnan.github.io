@@ -1,145 +1,249 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
-html,
-body {
-  width: 100%;
-  height: 100%;
+main [class~=social] a:hover {
+    color: #00ffff;
 }
 
-body {
-  background: #ee9ca7;
+main .desc {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
 }
 
-#cake {
-  display: block;
-  position: relative;
-  margin: -10em auto 0 auto;
+html {
+    overflow: hidden;
 }
 
-/* ============================================== Candle
-*/
-.velas {
-  background: #ffffff;
-  border-radius: 10px;
-  position: absolute;
-  top: 228px;
-  left: 50%;
-  margin-left: -2.4px;
-  margin-top: -8.33333333px;
-  width: 5px;
-  height: 35px;
-  -webkit-transform: translateY(-300px);
-          transform: translateY(-300px);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-animation: in 500ms 6s ease-out forwards;
-          animation: in 500ms 6s ease-out forwards;
+html {
+    background-color: #ec407a;
 }
 
-.velas:after,
-.velas:before {
-  background: rgba(255, 0, 0, 0.4);
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2.22222222px;
+main [class~=social] a {
+    text-decoration: none;
 }
 
-.velas:after {
-  top: 25%;
-  left: 0;
+main .desc {
+    font-size: 40px;
 }
 
-.velas:before {
-  top: 45%;
-  left: 0;
+main #nama{
+    color: #00ffff;
+}
+main [class~=social] a {
+    margin-left: 6px;
 }
 
-/* ============================================== Fire
-*/
-.fuego {
-  border-radius: 100%;
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  margin-left: -2.6px;
-  width: 6.66666667px;
-  height: 18px;
+main .social {
+    margin-top: 10px;
 }
 
-.fuego:nth-child(1) {
-  -webkit-animation: fuego 2s 6.5s infinite;
-          animation: fuego 2s 6.5s infinite;
+hr{
+    width:150px;
+    margin-top: 10px;
 }
 
-.fuego:nth-child(2) {
-  -webkit-animation: fuego 1.5s 6.5s infinite;
-          animation: fuego 1.5s 6.5s infinite;
+main [class~=social] a {
+    margin-bottom: 0;
 }
 
-.fuego:nth-child(3) {
-  -webkit-animation: fuego 1s 6.5s infinite;
-          animation: fuego 1s 6.5s infinite;
+main {
+    color: white;
 }
 
-.fuego:nth-child(4) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-          animation: fuego 0.5s 6.5s infinite;
+main {
+    text-align: center;
 }
 
-.fuego:nth-child(5) {
-  -webkit-animation: fuego 0.2s 6.5s infinite;
-          animation: fuego 0.2s 6.5s infinite;
+main [class~=social] a {
+    margin-right: .0625in;
 }
 
-/* ============================================== Animation Fire
-*/
-@-webkit-keyframes fuego {
-  0%, 100% {
-    background: rgba(254, 248, 97, 0.5);
-    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-            transform: translateY(0) scale(1);
-  }
-  50% {
-    background: rgba(255, 50, 0, 0.1);
-    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-            transform: translateY(-20px) scale(0);
-  }
+main {
+    min-height: 100vh;
 }
-@keyframes fuego {
-  0%, 100% {
-    background: rgba(254, 248, 97, 0.5);
-    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(0) scale(1);
-            transform: translateY(0) scale(1);
-  }
-  50% {
-    background: rgba(255, 50, 0, 0.1);
-    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
-    -webkit-transform: translateY(-20px) scale(0);
-            transform: translateY(-20px) scale(0);
-  }
+
+main [class~=desc2] {
+    font-family: "Roboto", sans-serif;
 }
-@-webkit-keyframes in {
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+
+main [class~=desc2] {
+    font-weight: 300;
 }
-@keyframes in {
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+
+main {
+    display: flex;
 }
-.text {
-  color: #8b6a60;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  text-align: center;
+
+main [class~=social] a {
+    margin-top: 0pc;
 }
-.text h1 {
-  font-size: 1.4em;
+
+main [class~=desc2] {
+    font-size: .3125in;
+}
+
+main {
+    flex-direction: column;
+}
+
+main {
+    justify-content: center;
+}
+
+main .social {
+    display: block;
+    z-index: 1;
+}
+
+main [class~=social] a {
+    color: #fff;
+}
+
+main [class~=social] a:hover {
+    transition-duration: .5s;
+}
+
+main [class~=social] a {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    main [class~=desc] {
+        font-size: 40px;
+    }
+    main {
+        min-height: 80vh;
+    }
+    main [class~=social] a {
+        font-size: .3125in;
+    }
+    main .desc2 {
+        font-size: .208333333in;
+    }
+}
+
+
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.context {
+    width: 100%;
+    
+}
+
+.area{
+    background: #363636;  
+    background: -webkit-linear-gradient(to left, #363636, #616161);  
+    width: 100%;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -200px;
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
 }
