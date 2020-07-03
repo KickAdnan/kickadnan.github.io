@@ -15,7 +15,7 @@ var myDate = new Date();
     else if (hrs >= 17 && hrs <= 21)
         greet = 'Hai Yeoppo!';
     else if (hrs >= 21 && hrs <= 24)
-        greet = 'Goodnight Sweetheath!';
+        greet = 'Goodnight Sweethearth!';
 
     document.getElementById('lblGreetings').innerHTML =
          greet ;
