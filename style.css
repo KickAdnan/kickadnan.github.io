@@ -52,7 +52,7 @@ main {
 }
 
 main [class~=social] a {
-    margin-right: .0625in;
+    margin-right: 6px;
 }
 
 main {
@@ -116,6 +116,12 @@ main [class~=social] a {
     }
     main .desc2 {
         font-size: .208333333in;
+    }
+    main [class~=social] a {
+        margin-left: 3px;
+    }
+    main [class~=social] a {
+        margin-right: 3px;
     }
 }
 
