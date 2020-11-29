@@ -84,23 +84,38 @@ body{
 
 @media (max-width: 576px) { 
 
-.mobile-container{
-  width: 100%;
-  margin-top: 20px;    
+  .mobile-container{
+    width: 100%;
+    margin-top: 20px;    
+    display: block;
+
+  }
+
+  .social-icon{
+    margin-right: 10px;
+  }
+
+  .spacer{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;    
+    display: block;
+
+  }
+
+  .img-decor{
+    height: 0px;
+    width: 0px;
   display: block;
 
-}
+  }
 
-.social-icon{
-  margin-right: 10px;
-}
 
-.spacer{
-  height: 50px;
-  width: 50px;
-  margin-top: 20px;    
-  display: block;
+  .nama-hero{
 
-}
+    margin-top: 10px;
+  }
+
+
 
 }
