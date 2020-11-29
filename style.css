@@ -82,3 +82,15 @@ body{
   margin-right: 20px;
 }
 
+@media (max-width: 576px) { 
+
+.mobile-container{
+  width: 100%;
+  margin-top: 20px;    
+  display: block;
+
+}
+
+
+
+}
