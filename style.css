@@ -95,4 +95,12 @@ body{
   margin-right: 10px;
 }
 
+.spacer{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;    
+  display: block;
+
+}
+
 }
